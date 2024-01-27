@@ -29,8 +29,8 @@ class MyComponent extends React.Component {
   render() {
     return (
       <>
-        {/* <AddComponent addJob = {this.addNewJob}/>
-        <ChildComponent name={this.state.firstname} arr = {this.state.arr} deleteJob = {this.deleteJob}/> */}
+        <AddComponent addJob = {this.addNewJob}/>
+        <ChildComponent name={this.state.firstname} arr = {this.state.arr} deleteJob = {this.deleteJob}/>
       </>
     );
   }
