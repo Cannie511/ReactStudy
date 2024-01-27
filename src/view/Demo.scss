@@ -1,0 +1,19 @@
+.btn-show{
+    background-color: aquamarine;
+}
+*{
+    margin: 0 auto;
+    table, tr, td, th, thead, tbody{
+        border: 1px solid white;
+        padding: 10px;
+    }
+    table{
+        margin-top: 10px;
+        button{
+            cursor: pointer;
+        }
+    }
+    thead{
+        background-color: gray;
+    }
+}
