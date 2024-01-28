@@ -1,10 +1,8 @@
 import React from "react";
-
-class Home extends React.Component{
-    render(){
-        return(
-            <h1>Hello Cannie - 5112002</h1>
-        )
-    }
+import Color from "./HOC/Color";
+class Home extends React.Component {
+  render() {
+    return <h1>Hello Cannie - 5112002</h1>;
+  }
 }
-export default Home
+export default Color(Home);

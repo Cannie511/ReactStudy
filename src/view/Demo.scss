@@ -12,6 +12,16 @@
         button{
             cursor: pointer;
         }
+        img{
+            width: 30px;
+            height: 30px;
+        }
+        tr{
+          cursor: pointer;  
+        }
+        tr:hover{
+            background-color: gray;
+        }
     }
     thead{
         background-color: gray;
