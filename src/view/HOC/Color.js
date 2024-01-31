@@ -10,7 +10,7 @@ function getRandomColor() {
 const Color =(WrappedComponent)=>{
     const randomColor = getRandomColor();
     return(props)=>(
-        <div style={{color:randomColor}}>
+        <div style={{background:randomColor}}>
             <WrappedComponent {...props}/>
         </div>
     )

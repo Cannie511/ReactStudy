@@ -6,12 +6,12 @@ import reportWebVitals from "./reportWebVitals";
 import { Provider } from "react-redux";
 import { createStore } from "redux";
 import rootReducer from "./store/reducers/rootReducer";
-
-const store = createStore(rootReducer);
-console.log("rootReducer:", rootReducer);
+import 'bootstrap/dist/css/bootstrap.min.css';
+const reduxStore = createStore(rootReducer);
+console.log("rootReducer:", reduxStore);
 ReactDOM.render(
   <React.StrictMode>
-    <Provider store={store}>
+    <Provider store={reduxStore}>
       <App />
     </Provider>
   </React.StrictMode>,
